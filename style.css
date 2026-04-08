@@ -1,0 +1,85 @@
+/*This is how you comment in css*/
+
+body {
+ height: 100%;
+ width: 100%;
+ background-image: url(https://yt3.googleusercontent.com/olAOMh3jvt0w0czl5rKi8C-yDvvXTg058Ti8qV5FlXGF6abMtWbUOUalfXVdaex-9QYk0Mzhs4g=s900-c-k-c0x00ffffff-no-rj) ;
+ background-position: right top;
+ color: white;
+}
+
+h1, h2{
+    background-color: red;
+}
+#fun {
+    background-color: green;
+    opacity: 0.5
+}
+p.naninf{
+    background-color: blue; color: white;
+}
+/*universal selector/ overrule everything*/
+* {
+    color: white;
+}
+/*About Backgrounds*/
+#background1{
+    background-color: green;
+    opacity: 0.5
+}
+#background2{
+    background-image: url(https://yt3.googleusercontent.com/olAOMh3jvt0w0czl5rKi8C-yDvvXTg058Ti8qV5FlXGF6abMtWbUOUalfXVdaex-9QYk0Mzhs4g=s900-c-k-c0x00ffffff-no-rj) ;
+    color: white
+}
+/*About Margins*/
+#margin1{
+    color: blue;
+    margin-left: 200px;
+    margin-top: 200px
+}
+#margin2{
+    color: blue;
+    margin: 50px 50px 50px 50px; /*50px alone represents all and 50px, 50px represent Top Bottom and Left Right is sequence*/
+}
+#margin3{
+    color: blue;
+    margin: inherit;
+}
+b {
+    margin: 500px
+}
+/*about borders*/
+#border1{
+    border-style: dotted;
+}
+#border2{
+    border-style: solid;
+}
+#border3{
+    border-style: groove;
+}
+#border4{
+    border-style: dashed;
+}
+#border5{
+    border-style: double;
+}
+#border6{
+    border-style: ridge;
+}
+#border7{
+    border-style: outset;
+}
+#border8{
+    border-style: inset;
+}
+#border9{
+    border-style: hidden;
+}
+#border10{
+    border-style: outset dashed inset solid; /*work the same way as magins*/
+}
+#border11{
+    border-style: solid;
+    border-width: 20px; /*work the same way as magins*/
+}
