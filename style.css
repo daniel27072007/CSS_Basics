@@ -233,11 +233,69 @@ tr:hover { /*hover -> only happens when the mouse is over the element*/
     visibility: hidden;
 }
 /*About Combinators in CSS*/
-h1 b{
+/*This is for every b element inside a h1*/
+h1 b{ 
     color: green;
     text-align: left;
 }
+/*This is for b elements that are especialy inside the H1 element*/
 h1 > b{
     color: rgb(9, 0, 128);
     text-align: left;
+}
+/*This is for a b element that is next to a h1*/
+h1 + b{
+    color: rgb(5, 255, 255);
+    text-align: left;
+}
+/*This is for a b element that is sibilings to a h1*/
+h1 ~ b{
+    color: rgb(255, 0, 179);
+    text-align: left;
+}
+/*About Dropdown Menu*/
+.dropdown-button{
+    background-color: blue;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    min-width: 150px;
+
+}
+.dropdown-menu a{
+    /*display: ;*/
+    color: black;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover{
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown:hover .dropdown-button{
+    background-color: grey;
+}
+/*About Atribute Selectors*/
+div[class]{
+    background-color: red;
+}
+div[class="test"]{
+    background-color: rgb(255, 255, 255);
 }
